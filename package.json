@@ -1,0 +1,30 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "RESTful API similar to wikipedia",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SD-IITKGP/Wiki_API.git"
+  },
+  "keywords": [
+    "API",
+    "RESTful",
+    "Authentication"
+  ],
+  "author": "sourabhchoudhary.live",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SD-IITKGP/Wiki_API/issues"
+  },
+  "homepage": "https://github.com/SD-IITKGP/Wiki_API#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0"
+  }
+}
